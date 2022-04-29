@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 @import "reset.css";
 @import "variables.css";
 
-/* Compenents */
+/* Components : 여러 스크린에서 똑같이 가져다 사용할 수 있는 것들 */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 
-/* screens  */
+/* Screens : 하나의 스크린에만 있는 것들*/
 @import "screens/login.css";
 @import "screens/friends.css";
 
