@@ -7,6 +7,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens : 하나의 스크린에만 있는 것들*/
 @import "screens/login.css";
