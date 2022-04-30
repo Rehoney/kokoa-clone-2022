@@ -16,22 +16,38 @@
 .nav__link {
   position: relative;
   color: #2e363e;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
 }
 
 .nav__notification {
+  position: absolute;
   background-color: tomato;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
   display: flex;
-  display: center;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: 600;
-  position: absolute;
-  left: 20px;
-  bottom: 15px;
+  left: 18px;
+  bottom: 18px;
 }
 
 .nav__dot {
@@ -39,10 +55,6 @@
   width: 6px;
   height: 6px;
   border-radius: 3px;
-  display: flex;
-  display: center;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 35px;
   bottom: 30px;
